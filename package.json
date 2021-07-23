@@ -1,11 +1,11 @@
 {
-  "name": "btc-converter",
-  "version": "1.0.0",
+  "name": "btc-converter-course",
+  "version": "1.0.1",
   "description": "A CLI to convert Bitcoin to any currency provided. Created by 'JS com TDD na prática' course.",
   "main": "index.js",
   "scripts": {
     "clear": "rimraf bin",
-    "build": "npm run clear && ./node_modules/.bin/babel --out-dir lib src",
+    "build": "npm run clear && ./node_modules/.bin/babel --out-dir bin src",
     "build:watch": "npm run build -- --watch",
     "lint": "./node_modules/.bin/eslint src/*.js",
     "prepush": "npm run lint",
@@ -44,6 +44,8 @@
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-env": "^1.3.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.24.0",
     "chai": "^3.5.0",
     "eslint": "^4.0.0",
@@ -51,7 +53,16 @@
     "eslint-plugin-import": "^2.6.1",
     "husky": "^0.11.9",
     "mocha": "^3.2.0",
+    "nock": "^9.0.13",
     "nyc": "^10.2.0",
-    "rimraf": "^2.6.1"
+    "rimraf": "^2.6.1",
+    "sinon": "^2.3.6",
+    "sinon-chai": "^2.11.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^2.10.0",
+    "ora": "^1.3.0",
+    "request": "^2.81.0"
   }
 }
