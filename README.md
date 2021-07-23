@@ -1,6 +1,6 @@
-# Project Title
+# Bitcoin Converter
 
-One Paragraph of project description goes here
+A CLI to convert Bitcoin to any currency provided. Created by 'JS com TDD na prática' course.
 
 ## Getting Started
 
@@ -68,13 +68,13 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/enriqueprieto/btc-converter/tags).
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Enrique Prieto** - *Initial work* - [Enrique Prieto](https://github.com/enriqueprieto)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/enriqueprieto/btc-converter/contributors) who participated in this project.
 
 ## License
 
